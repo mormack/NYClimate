@@ -1,4 +1,5 @@
 import Home from './home';
-import Cities from './cities';
+import Search from './search';
+import ComingSoon from './comingsoon';
 
-export { Home, Cities };
+export { Home, Search, ComingSoon };
