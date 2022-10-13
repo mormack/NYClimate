@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import styles from '../index.css';
 
 function Search() {
   const [data, setData] = useState({});

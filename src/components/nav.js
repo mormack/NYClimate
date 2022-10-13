@@ -4,7 +4,7 @@ const Nav = () => (
   <nav>
     <ul className='nav'>
       <li className='nav-content'>
-        <a href='#' class='ico' />
+        <a href='#' className='ico' />
       </li>
       <li className='nav-content'>
         <a href='/'>NYClimate</a>
