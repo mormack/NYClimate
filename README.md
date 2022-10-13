@@ -1,3 +1,7 @@
+# Preview
+
+![](https://file%2B.vscode-resource.vscode-cdn.net/Users/momack/nyclimate/public/NYClimate.png?version%3D1665693835655)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
