@@ -1,32 +1,22 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-// easier to add to nav bar using an arr of objs
-const navigateTo = [
-  {
-    path: '/',
-    name: 'Home',
-  },
-  {
-    path: '/cities',
-    name: 'Cities',
-  },
-  {
-    path: '/comingsoon',
-    name: 'Coming Soon',
-  },
-];
-
 const Nav = () => (
-  <nav className='bg-gray-200 p-1'>
-    <ul className='flex space-x-5 justify-end'>
-      {navigateTo.map((navProp) => (
-        <li>
-          <NavLink exact='true' to={navProp.path}>
-            {navProp.name}
-          </NavLink>
-        </li>
-      ))}
+  <nav>
+    <ul className='nav'>
+      <li className='nav-content'>
+        <a href='#' class='ico' />
+      </li>
+      <li className='nav-content'>
+        <a href='/'>NYClimate</a>
+        <p>Forecasts for New York's Major Cities</p>
+      </li>
+      <li className='nav-content'>
+        <a href='/'>Home</a>
+      </li>
+      <li className='nav-content'>
+        <a href='/search'>More Cities</a>
+      </li>
     </ul>
   </nav>
 );
