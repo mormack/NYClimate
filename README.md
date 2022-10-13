@@ -1,6 +1,6 @@
 # Preview
 
-![](https://file%2B.vscode-resource.vscode-cdn.net/Users/momack/nyclimate/public/NYClimate.png?version%3D1665693835655)
+<img width="1392" alt="NYClimate" src="https://user-images.githubusercontent.com/74827423/195707798-6fd7fc68-ebe6-44fc-b5e3-12f9e478ec99.png">
 
 # Getting Started with Create React App
 
